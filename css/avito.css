@@ -4,10 +4,16 @@ body{
     color:#0A143A;
 }
 
+.container{
+
+     max-width: 1146px;
+     margin:auto;
+}
+
 .header{
     padding-top: 30px;
-    max-width: 1146px;
-    margin:auto;
+   padding-bottom: 30px;
+   margin-bottom: 12px;
 }
 
 .navbar{
@@ -97,3 +103,131 @@ align-items: center;
     margin-left: 5px;
 }
 
+
+
+.page_content{
+
+    display:grid;
+    grid-template-columns: 9fr 3fr;
+    grid-column-gap: 30px;
+}
+
+.card_image{
+    border-radius:10px;
+    width: 264px;
+    height: 178px;
+    object-fit: cover;
+}
+
+.cards{
+
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    margin-bottom: 20px;
+   
+}
+
+.card:not(:nth-child(3n)) {
+    margin-right: 20px;
+}
+.card_title{
+
+    font-size: 16px;
+    line-height: 19px;
+    color: #256EEB;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.card_header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.like{
+    background-color: #fff;
+    border:none;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.card_link{
+    text-decoration: none;
+}
+
+.card_price{
+  font-size: 16px;
+  line-height: 19px;
+  color: #0A143A;
+  margin-bottom: 10px;
+  display:block;
+}
+
+.card_text{
+
+    font-size: 14px;
+    line-height: 16px;
+    color: #C4C4C4;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    
+
+}
+
+.service{
+    margin-bottom: 25px;
+}
+
+.sidebar .pages_title{
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.service_title{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0A143A;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+.service_text{
+    font-size: 14px;
+    line-height: 16px;
+    color: #0A143A;
+    max-width: 217px;
+}
+
+.desh{
+    border: 1px solid #E5E5E5;
+}
+
+.footer_menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.footer_text{
+    display:inline-block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #C4C4C4;
+}
+
+.footer_link{
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 5px;
+    color: #000000;
+    text-decoration: none;
+    display:inline-block;
+}
